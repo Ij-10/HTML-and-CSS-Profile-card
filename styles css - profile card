@@ -1,0 +1,88 @@
+body{
+    background: linear-gradient(whitesmoke, blue);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 750;
+    text-transform: capitalize;
+    color: navy;
+    margin: 80px;
+    margin-bottom: -20rem;
+}
+
+.card{
+    padding: 30px;
+    margin: 30%;
+    margin-left: 430px;
+    width: 32%;
+    background: white;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.background{ 
+    background: url(./background.jpeg);
+    width: 487px;
+    margin-top: -30px;
+    margin-left: -30px;
+    height: 150px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.center-image{
+    background: url(./cover\ image.jpg);
+    height: 140px;
+    width: 180px;
+    object-position: center;
+    object-fit: center;
+    margin: 20px;
+    padding: 20px;
+    margin-left: 110px;
+    margin-top: -70px;
+    margin-bottom: -50px;
+    border-radius: 50%;
+}
+
+.mini-heading{
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.7px;
+    color: navy;
+    margin-top: 90px;
+}
+
+.paragraph{
+    font-weight: 400px;
+    letter-spacing: 0.7px;
+    text-align: center;
+    text-transform: capitalize;
+    color: navy;
+    margin-top: 20px;
+    margin-bottom: -50px;
+}
+
+.submit{
+    width: 150px;
+    margin: 130px;
+    padding: 15px;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: capitalize;
+    background-color: navy;
+    color: white;
+    border-radius: 6px;
+    border-color: transparent;
+    letter-spacing: 0.7px;
+}
+
+.submit:hover{
+    color: coral;
+    font-size: 1.1rem;
+}
